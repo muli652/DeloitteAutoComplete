@@ -1,0 +1,19 @@
+<input 
+    type="text"
+    placeholder="Search..."
+    (input)="onInput($event)"
+    (focus)="onFocus()"
+    (blur)="onBlur()"
+    (keydown)="onAnyKeyPress($event)"
+    (keydown.enter)="$event.target.blur();false"
+    [value]="inputValue"
+    id="autocomplete"/>
+
+<div #autoCompleteRef class="dropdown" [style.display]="panelDropDownVisible ? 'block' : 'none'" >
+    <app-employee-list
+        (selectedEmployeeNameEvent)="reciveEmployeeNameForInput($event)"
+        [searchTerm]="searchTerm">
+    </app-employee-list>
+</div>
+       
+

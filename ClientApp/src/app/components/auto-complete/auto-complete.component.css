@@ -1,0 +1,22 @@
+input {
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 20px;
+  width: 50vw;
+  border: none;
+  height: 2em;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(134, 133, 133, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19);
+}
+
+input:focus{
+    outline: none;
+}
+
+.dropdown{
+    min-width: 160px;
+    z-index: 1;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+}

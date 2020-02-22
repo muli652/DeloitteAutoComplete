@@ -1,0 +1,13 @@
+<ul id="list-employee">
+    <li 
+        id="employee-card" 
+        *ngFor="let employee of afterSearch; index as i"
+        (mousedown)="onEmplyeeClick(employee.ID)"
+        [style.background-color]="changeColor(i)">
+            <img [src]="employee.ImageUrl" class="circle-image-list"/>
+            <div class="titles-list">
+                <span class="employee-title" [innerHTML]="employee.EmployeeName | highlight: searchTerm"></span><br>
+                <span class="work-title" [innerHTML]="employee.WorkTitle | highlight: searchTerm"></span>
+            </div>   
+    </li>
+</ul>

@@ -1,0 +1,16 @@
+.input-area{
+    display: flex;
+    justify-content:center; 
+    box-sizing: border-box;
+}
+
+.auto-complote-container{
+    border-radius: 25px;
+    background: #f2f2f2;
+    height: fit-content;
+}
+
+.button-continer{
+    display: inline-flex;
+    height: fit-content;
+}

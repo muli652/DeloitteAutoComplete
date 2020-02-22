@@ -1,0 +1,14 @@
+.btn{
+    cursor: pointer;
+    background: #33afaf;
+    border: none;
+    padding:0;
+    border-radius: 50%;
+    margin-left:20%;
+    width:3.5em;
+}
+
+img{
+    display: block;
+    padding:0;
+}

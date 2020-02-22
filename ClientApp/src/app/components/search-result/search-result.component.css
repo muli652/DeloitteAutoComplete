@@ -1,0 +1,28 @@
+.result-display{
+    display: none;
+    margin: 10%;
+    margin-top:3%;
+    overflow-y: hidden;
+}
+
+.all-results{
+    display: block;
+    height: 300px;
+    margin: 10%;
+    background-color: turquoise;
+}
+
+:host /deep/ #list-employee {
+    overflow-y: hidden;
+    max-height: none;
+}
+
+:host /deep/ #employee-card {
+    border-bottom: 0;
+    background-color: #d9d9d9!important;
+}
+
+:host /deep/ #employee-card:hover {
+    background-color:#d9d9d9;
+    cursor:auto ;
+}

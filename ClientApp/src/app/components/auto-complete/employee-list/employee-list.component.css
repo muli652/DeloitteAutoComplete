@@ -1,0 +1,56 @@
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    background-color:#d9d9d9;
+    border-radius: 25px;
+    overflow:hidden; 
+    overflow-y:auto;
+    max-height: 300px;
+}
+
+li{
+    overflow:hidden;
+    list-style-position:inside;
+    background-color:#d9d9d9;
+    border-bottom: 1px solid #f2f2f2;
+    padding-left:20px;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
+li:hover{
+    background-color:#f2f2f2!important;
+    cursor: pointer;
+}
+
+.circle-image-list{
+    float:left;
+    box-shadow: 0 0 1px 0 rgba(87,87,87,0.8);
+    width:50px;
+    outline:0;
+    border-radius:50%;
+}
+
+.titles-list{
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none; 
+    outline:0
+}
+
+.employee-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: darkred;
+    margin-bottom: 1%;
+}
+
+.work-title{
+    font-size:12px;
+}
+
+.highlightText {
+    background: yellow;
+}
